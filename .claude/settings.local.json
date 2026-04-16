@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source path/to/venv/bin/activate)",
+      "Bash(python3 save_voyage_embeddings.py)",
+      "Bash(pip install:*)",
+      "Bash(python3 -c \"import voyageai; help\\(voyageai.Client.embed\\)\")",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(git submodule *)"
+    ]
+  }
+}
